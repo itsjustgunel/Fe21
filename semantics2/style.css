@@ -1,0 +1,102 @@
+*{
+    outline: none;
+    padding: 0%;
+}
+body{
+    background-color: rgb(67, 99, 213);
+
+}
+
+.header{
+ border: 5px solid white;
+ border-radius: 10px;
+ background-color: white;
+ position: absolute;
+ top:20px;
+ left:360px;
+ width: 840px;
+ height: 50px;
+ text-align: center;
+}
+.header h1{
+    color: blue;
+    
+}
+.nav{
+    border: 5px solid rgb(192, 192, 224);
+    border-radius: 10px;
+    background-color: rgb(192, 192, 224) ;
+    width: 260px;
+    height: 420px;
+    position: absolute;
+    top: 120px;
+    left: 360px;
+   
+}
+.nav h2{
+    color: blue;
+    position: absolute;
+    top:160px;
+    left:90px;
+}
+
+.main{
+    border: 5px solid rgb(192, 192, 224);
+    border-radius: 10px;
+    background-color: rgb(192, 192, 224) ;
+    width: 500px;
+    height: 420px;
+    position: absolute;
+    top: 120px;
+    left: 700px;
+}
+.main h2{
+    color: blue;
+    position: absolute;
+    top: 90px;
+    left: 200px;
+}
+.article1{
+    border: 5px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    background-color: rgb(190, 190, 190) ;
+    width: 280px;
+    height: 40px;
+    position: absolute;
+    top: 280px;
+    left: 790px;
+}
+.article2{
+    border: 5px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    background-color: rgb(190, 190, 190) ;
+    width: 280px;
+    height: 40px;
+    position: absolute;
+    top: 340px;
+    left: 790px;
+}
+
+h3{
+    color: blue;
+    position: absolute;
+    top:-10px;
+    left: 100px;
+}
+
+.footer{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top:580px;
+    left:360px;
+    width: 840px;
+    height: 50px;
+}
+
+.footer h1{
+    color: blue;
+    position: absolute;
+    left: 370px;
+}
