@@ -1,0 +1,123 @@
+:root {
+    --maincolor: #FFC01F 
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0%;
+    list-style-type: none;
+    outline: none;
+    margin: 0%;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+}
+
+
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--maincolor);
+    padding: 20px;
+}
+.logolar a{
+   margin-left: 10px; 
+}
+
+a{
+ color: #353535;   
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 30px;
+   border-bottom: 2px solid #cecece;
+}
+.yazilar a{
+margin-left: 10px;
+}
+
+.diller a{
+    border-right: 1px solid #353535;
+    margin-left: 2px;
+}
+.bar{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px;
+ 
+}
+.text{
+    font-size: x-small;
+    width: 40%;
+    color: #353535;
+    display: block;
+}
+.text h1{
+   
+font-size: 30px;
+color:#596C72;
+}
+
+.img{
+    border: 10px solid white;
+    box-shadow: 0px 0px 10px 0px #95959540;
+}
+
+.text a{
+    border: 1px solid #353535;
+    border-radius: 40px;
+    padding: 10px 40px;
+   
+}
+
+@media (max-width: 655px) {
+    .diller, .yazilar, .img{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    .container{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLt3eN7oatB53x4-LXm5hAh-iZkEpMMavi6XcjgyqpKz8XK70T);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        padding: 0%;
+        margin: 0%;
+    .text a, h1, p {
+        font-size: 15px;
+        padding: 10px;
+         margin-left: 50px;
+         
+    }   
+    .text h1{
+        color: white;
+        font-size: 30px;
+        margin-top: 220px;
+       width: 300px;
+    }
+    .text p {
+        color:#c9c9c9;
+        width: 400px;
+    }
+    .text a{
+        background-color: white;
+        color: #353535;
+        padding: 8px 52px;
+    }
+    
+}
+}
+
